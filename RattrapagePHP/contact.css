@@ -1,0 +1,54 @@
+/*public/css/contact.css*/
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+
+.form-container button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+.success-message {
+    color: green;
+    font-size: 14px;
+}
